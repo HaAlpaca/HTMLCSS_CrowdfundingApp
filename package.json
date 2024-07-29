@@ -1,0 +1,14 @@
+{
+  "name": "crowfunding_webapp",
+  "version": "1.0.0",
+  "description": "crowfunding_web_app with responsive ui",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass assets/sass/main.scss assets/css/style.css -w"
+  },
+  "author": "HaAlpaca",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.7.1"
+  }
+}
