@@ -33,11 +33,15 @@ $color-white-soft: #fcfbff;
 $color-gray-soft: #fcfcfc;
 $color-strock: #f1f1f3;
 $color-lite-bg: #fcfcfd;
+$color-tirtary-btn: #eeeafd;
 
 // Error
 $color-status-error: #eb5757;
 
-// FONT
+// FONT SIZE
+$text-default: 1.6rem;
+$text-default-sm: 1.6rem;
+
 $h1-fs-default: 6rem;
 $h1-fs: 4rem;
 
@@ -47,7 +51,7 @@ $h2-fs: 2.5rem;
 $h3-fs-default: 3.2rem;
 $h3-fs: 2.2rem;
 
-$h3-fs2-df: 3rem;
+$h3-fs2-default: 3rem;
 $h3-fs2: 2rem;
 
 $body-text-default: 3rem;

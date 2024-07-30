@@ -1,0 +1,24 @@
+.input {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 10px;
+
+  label {
+    padding: 10px 0;
+    color: $color-text-2;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+  }
+  &__text {
+    height: 52px;
+    border: 1px solid $color-strock;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    color: $color-text-4;
+    padding: 15px 25px 15px 25px;
+  }
+}
