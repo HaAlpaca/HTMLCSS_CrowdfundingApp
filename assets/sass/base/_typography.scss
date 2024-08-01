@@ -1,14 +1,69 @@
 body {
   font-family: "Epilogue", sans-serif;
-  font-weight: 400;
-  color: color-text-1;
+  font-weight: 700;
+  color: $color-text-1;
 }
 
-.heading {
-  font-size: $h1-fs-default;
-  text-transform: uppercase;
+.headline {
   font-weight: 700;
+  &--1 {
+    font-size: $h1-fs-default;
+    @include respond(phone) {
+      font-size: $h1-fs;
+    }
+  }
+  &--2 {
+    font-size: $h2-fs-default;
+    line-height: 6rem;
+    @include respond(phone) {
+      font-size: $h2-fs;
+    }
+  }
+  &--3 {
+    font-size: $h3-fs-default;
+    @include respond(phone) {
+      font-size: $h3-fs;
+    }
+  }
+  &--3s {
+    font-size: $h3-fs2-default;
+    @include respond(phone) {
+      font-size: $h3-fs2;
+    }
+  }
+}
+
+.text-medium {
+  font-weight: 700;
+  font-size: $body-text-default;
   @include respond(phone) {
-    font-size: $h1-fs;
+    font-size: $body-text;
+  }
+}
+
+.text-small {
+  font-weight: 700;
+  font-size: $body-text2-default;
+
+  @include respond(phone) {
+    font-size: $body-text2;
+  }
+}
+
+.paragraph {
+  font-weight: 700;
+  font-size: $paragraph-text-default;
+
+  @include respond(phone) {
+    font-size: $paragraph-text;
+  }
+}
+
+.paragraph-small {
+  font-weight: 700;
+  font-size: $paragraph-text2-default;
+
+  @include respond(phone) {
+    font-size: $paragraph-text2;
   }
 }

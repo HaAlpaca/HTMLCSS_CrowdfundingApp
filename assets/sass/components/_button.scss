@@ -1,0 +1,85 @@
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+  border: none;
+  border-radius: 10px;
+  background-color: $color-primary;
+  color: $color-white;
+  font-size: $text-default;
+  font-weight: 600;
+  &:hover {
+    background-color: $color-primary-20;
+  }
+  &:active {
+    background-color: $color-primary-extra-2;
+  }
+  &:disabled {
+    background-color: $color-primary-80;
+  }
+
+  @include respond(phone) {
+    padding: 9px 13px 9px 13px;
+    border: none;
+    border-radius: 5px;
+    font-size: $text-default-sm;
+  }
+
+  &-secondary {
+    background-color: $color-secondary-20;
+
+    &:hover {
+      background-color: $color-secondary-40;
+    }
+    &:active {
+      background-color: $color-secondary;
+    }
+    &:disabled {
+      background-color: $color-secondary-60;
+    }
+  }
+
+  &-tirtary {
+    color: $color-secondary;
+    background-color: $color-tirtary-btn;
+
+    &:hover {
+      color: $color-secondary;
+      background-color: $color-secondary-40;
+    }
+    &:active {
+      background-color: $color-secondary;
+    }
+    &:disabled {
+      background-color: $color-secondary-60;
+    }
+  }
+}
+
+.btn-outline-google {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: $text-default;
+  font-weight: 600;
+  &--dark {
+    border: 1px solid $color-strock;
+    color: $color-text-2;
+  }
+  &--lite {
+    border: 1px solid $color-dark-stroke;
+    color: $color-white;
+  }
+
+  &__img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,52 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  position: relative;
+  label {
+    padding: 10px 0;
+    color: $color-text-2;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+  }
+  &__text {
+    outline: none;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    border: 1px solid $color-strock;
+    color: $color-text-1;
+    padding: 15px 25px 15px 25px;
+    transition: all 0.1s;
+    &::placeholder {
+      color: $color-text-4;
+    }
+
+    &:focus {
+      border: 1px solid $color-dark-stroke;
+    }
+    &:focus:invalid {
+      border: 1px solid $color-status-error;
+    }
+  }
+  &__show {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    right: 28px;
+    transform: translateY(40%);
+  }
+
+  &__hide {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    right: 28px;
+    transform: translateY(40%);
+  }
+}

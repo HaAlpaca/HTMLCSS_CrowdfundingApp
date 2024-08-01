@@ -285,5 +285,102 @@ body {
   right: 28px;
   transform: translateY(40%);
 }
+.input__hide {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  transform: translateY(40%);
+}
 
-/*# sourceMappingURL=style.css.map */
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form__group {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.form__forgetPassword {
+  float: right;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #1dc071;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.login {
+  position: relative;
+  background-color: #fcfcfd;
+  width: 100%;
+  height: 100%;
+}
+.login__logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 10;
+}
+.login__logo img {
+  width: 52px;
+  height: 52px;
+}
+@media only screen and (max-width: 37.5rem) {
+  .login__logo {
+    top: 24px;
+    left: 24px;
+  }
+  .login__logo img {
+    width: 40px;
+    height: 40px;
+  }
+}
+.login__title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #171725;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 37.5rem) {
+  .login__title {
+    font-size: 1.8rem;
+  }
+}
+.login__subscription {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #808191;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 37.5rem) {
+  .login__subscription {
+    font-size: 1.2rem;
+  }
+}
+.login__subscription a {
+  color: #1dc071;
+}
+.login__form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  width: 556px;
+  padding: 50px 60px;
+  background-color: #ffffff;
+}
+@media only screen and (max-width: 37.5rem) {
+  .login__form {
+    width: 327px;
+    transform: translate(-50%, 15%);
+    padding: 30px 20px 30px 20px;
+  }
+}
+
+/*# sourceMappingURL=login.css.map */
