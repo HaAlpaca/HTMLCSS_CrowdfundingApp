@@ -4,7 +4,8 @@
   "description": "crowfunding_web_app with responsive ui",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass assets/sass/main.scss assets/css/style.css -w"
+    "compile:sass": "sass assets/sass/main.scss assets/css/style.css -w",
+    "compile:sass-login": "sass assets/sass/login.scss assets/css/login.css -w"
   },
   "author": "HaAlpaca",
   "license": "ISC",
