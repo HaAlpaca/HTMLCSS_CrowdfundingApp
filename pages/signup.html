@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/signup.css" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <div class="signup">
+      <div class="signup__logo">
+        <img src="/assets/img/Logo.svg" alt="Logo" />
+      </div>
+      <!-- <div class="circle-bg"></div> -->
+      <div class="signup__form">
+        <h3 class="signup__title">Sign Up</h3>
+        <p class="signup__subscription">
+          Already have an account? <a href="#" class="signup__link">Sign in</a>
+        </p>
+
+        <form action="#" class="form">
+          <div class="form__group">
+            <button class="btn-outline-google btn-outline-google--dark">
+              <img
+                src="/assets/img/icon_Google.svg"
+                alt="icon"
+                class="btn-outline-google__img"
+              />
+              Sign in with google
+            </button>
+          </div>
+
+          <p class="signup__subscription">Or sign up with email</p>
+
+          <div class="form__group">
+            <div class="input">
+              <label>Full name</label>
+              <input
+                class="input__text"
+                type="text"
+                placeholder="Jhon Doe"
+                required
+              />
+            </div>
+          </div>
+          <div class="form__group">
+            <div class="input">
+              <label>Email</label>
+              <input
+                class="input__text"
+                type="text"
+                placeholder="example@gmail.com"
+                required
+              />
+            </div>
+          </div>
+          <div class="form__group">
+            <div class="input">
+              <label>Password</label>
+              <input
+                class="input__text"
+                type="password"
+                placeholder="Enter Password"
+                required
+              />
+              <img
+                src="/assets/img/icon_eyeon.svg"
+                alt=""
+                class="input__show"
+              />
+              <!-- <img
+                src="/assets/img/icon_eyeoff.svg"
+                alt=""
+                class="input__hide"
+              /> -->
+            </div>
+          </div>
+          <div class="form__group">
+            <div class="confirmation">
+              <div class="confirmation__checkbox">
+                <input type="checkbox" id="checkbox" />
+                <label for="checkbox">
+                  <div class="confirmation__checkmark"></div>
+                </label>
+              </div>
+
+              <p class="confirmation__paragraph">
+                I agree to the
+                <a href="#" class="confirmation__link">Tearms of Use</a> and
+                have read and understand the
+                <a href="#" class="confirmation__link">Privacy policy.</a>
+              </p>
+            </div>
+          </div>
+          <div class="form__group">
+            <button class="btn">Sign in</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
