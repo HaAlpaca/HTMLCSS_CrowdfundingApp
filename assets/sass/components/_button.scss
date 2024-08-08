@@ -1,5 +1,5 @@
 .btn {
-  width: 100%;
+  // width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +47,7 @@
   font-size: $text-default;
   font-weight: 600;
   width: 100%;
+  border: none;
   padding: 13px;
   border-radius: 10px;
   color: $color-secondary;

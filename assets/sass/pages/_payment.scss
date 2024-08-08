@@ -1,0 +1,53 @@
+.payment { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+
+    @include respond(phone) {
+        width: 310px;
+        
+    }
+    &__group {
+        margin-top: 66px;
+        width: 554px;
+        @include respond(phone) {
+            width: 310px;
+            margin-top: 0px;
+            
+        }
+    }
+    &__box {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: $color-text-1;
+        text-align: center;
+        margin-bottom: 10px ;
+        @include respond(phone) {
+            font-size: 18px;
+        }
+    }
+    &__desc {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: $color-text-3;
+        text-align: center;
+        @include respond(phone) {
+            font-size: 12px;
+        }
+    }
+    
+    &__group-card {
+        display: flex;
+        @include respond(phone) {
+         flex-direction: column;
+         gap: 20px;
+        }
+        
+    }
+}

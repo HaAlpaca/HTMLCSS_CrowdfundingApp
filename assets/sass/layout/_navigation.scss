@@ -1,0 +1,34 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    &__logo {
+        width: 52px;
+        height: 52px;
+        margin-left: 14px;
+        @include respond(phone) {
+            display: none;
+
+        }
+    }
+    &__menu-btn {
+        display: none;
+        @include respond(phone) {
+            display: inline-block;
+            padding: 12px;
+        }
+    }
+    &--group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;                                                                                            
+    }
+    &__btn {
+        @include respond(phone) {
+            display: none;
+        }
+    }
+
+    
+}

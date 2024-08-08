@@ -4,3 +4,28 @@
 .italic {
   font-style: italic;
 }
+
+
+.size-nav-btn {
+  width: 191px;
+}
+.size-sidebar {
+  width: 76px;
+}
+
+.gap-54 {
+  gap:54px;  
+  @include respond(phone) {
+    gap: inherit;
+  }
+}
+.gap-40 {
+  gap:40px;  
+  @include respond(phone) {
+    gap: inherit;
+  }
+}
+
+.flex-1 {
+  flex: 1;
+}
