@@ -6,7 +6,8 @@
   "scripts": {
     "compile:sass": "sass assets/sass/main.scss assets/css/style.css -w",
     "compile:sass-login": "sass assets/sass/login.scss assets/css/login.css -w",
-    "compile:sass-signup": "sass assets/sass/signup.scss assets/css/signup.css -w"
+    "compile:sass-signup": "sass assets/sass/signup.scss assets/css/signup.css -w",
+    "compile:sass-payment": "sass assets/sass/payment.scss assets/css/payment.css -w"
   },
   "author": "HaAlpaca",
   "license": "ISC",

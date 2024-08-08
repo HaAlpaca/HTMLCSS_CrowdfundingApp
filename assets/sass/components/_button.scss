@@ -41,21 +41,27 @@
     }
   }
 
-  &-tirtary {
-    color: $color-secondary;
-    background-color: $color-tirtary-btn;
-
-    &:hover {
-      color: $color-secondary;
-      background-color: $color-secondary-40;
-    }
-    &:active {
-      background-color: $color-secondary;
-    }
-    &:disabled {
-      background-color: $color-secondary-60;
-    }
-  }
+}
+.btn-tirtary {
+  color: $color-white;
+  font-size: $text-default;
+  font-weight: 600;
+  width: 100%;
+  padding: 13px;
+  border-radius: 10px;
+  color: $color-secondary;
+  background-color: $color-tirtary-btn;
+}
+.btn-tirtary--active {
+  color: $color-white;
+  font-size: $text-default;
+  font-weight: 600;
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 10px;
+  color:  $color-tirtary-btn;
+    background-color: $color-secondary;
 }
 
 .btn-outline-google {

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/login.css" />
+    <title>Log In</title>
+  </head>
+  <body>
+    <div class="login">
+      <div class="login__logo">
+        <img src="/assets/img/Logo.svg" alt="Logo" />
+      </div>
+      <!-- <div class="circle-bg"></div> -->
+      <div class="login__form">
+        <h3 class="login__title">Wellcome Back!</h3>
+        <p class="login__subscription">
+          Don't have an account? <a href="#" class="login__link">Sign up</a>
+        </p>
+        <form action="#" class="form">
+          <div class="form__group">
+            <button class="btn-outline-google btn-outline-google--dark">
+              <img
+                src="/assets/img/icon_Google.svg"
+                alt="icon"
+                class="btn-outline-google__img"
+              />
+              Sign in with google
+            </button>
+          </div>
+          <div class="form__group">
+            <div class="input">
+              <label>Email</label>
+              <input
+                class="input__text"
+                type="text"
+                placeholder="example@gmail.com"
+                required
+              />
+            </div>
+          </div>
+          <div class="form__group">
+            <div class="input">
+              <label>Password</label>
+              <input
+                class="input__text"
+                type="password"
+                placeholder="Enter Password"
+                required
+              />
+              <img
+                src="/assets/img/icon_eyeon.svg"
+                alt=""
+                class="input__show"
+              />
+              <!-- <img
+                src="/assets/img/icon_eyeoff.svg"
+                alt=""
+                class="input__hide"
+              /> -->
+            </div>
+          </div>
+          <div class="form__group">
+            <a href="#" class="form__forgetPassword">Forgot password</a>
+          </div>
+          <div class="form__group">
+            <button class="btn">Sign in</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

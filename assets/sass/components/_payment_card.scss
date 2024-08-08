@@ -1,0 +1,34 @@
+.payment-card {
+    width:292px;
+    height: 279px;
+    padding: 25px;
+    @include respond(phone) {
+        width: 245px;
+        height: 208px;
+        padding: 20px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        align-items: center;
+        height: 142px;
+        @include respond(phone) {
+            height: 108px;
+        }
+    }
+    &__img {
+        width: 80px;
+        height: 80px;
+    }
+    &__desc {
+        color: $color-text-3;
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
+}

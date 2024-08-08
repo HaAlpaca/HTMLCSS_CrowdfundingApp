@@ -1,0 +1,20 @@
+.fundrising {
+    display: flex;
+    align-items: flex-start;
+    height: 24px;
+    gap: 7px;
+    @include respond(phone) {
+        display: none;
+    }
+    &__text {
+        margin-top: 5px;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: $color-text-2;
+
+    }
+    &__icon {
+        width: 24px;
+        height: 24px;
+    }
+}
