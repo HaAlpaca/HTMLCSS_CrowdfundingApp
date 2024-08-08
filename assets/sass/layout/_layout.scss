@@ -1,0 +1,15 @@
+.layout {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    &__main {
+        display: flex;
+    }
+    @include respond(phone) {
+        margin: 24px;
+        gap: 40px;
+        
+    }
+}

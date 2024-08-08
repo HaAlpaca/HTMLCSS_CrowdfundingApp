@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/payment.css" />
+    <title>Payment</title>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="navigation">
+        <div class="navigation--group gap-54">
+          <img src="/assets/img/Logo.svg" alt="" class="navigation__logo" />
+          <img
+            src="/assets/img/icon_menu.svg"
+            alt=""
+            class="navigation__menu-btn"
+          />
+        </div>
+
+        <div class="navigation--group gap-54">
+          <div class="search">
+            <!-- <div class="search__overlay"></div>  -->
+            <div class="search__bar">
+              <input
+                type="text"
+                placeholder="Do fundrise now"
+                class="search__bar--input"
+              />
+              <div class="search__bar--btn">
+                <img
+                  src="/assets/img/icon_search_light.svg"
+                  alt="search"
+                  class="search__bar--img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="navigation--group gap-40">
+          <div class="fundrising">
+            <img
+              src="/assets/img/icon_up.svg"
+              alt="icon up"
+              class="fundrising__icon"
+            />
+            <p class="fundrising__text">Fundrising for</p>
+            <img
+              src="/assets/img/icon_arrow_down.svg"
+              alt=""
+              class="fundrising__icon"
+            />
+          </div>
+
+          <div class="btn btn-secondary size-nav-btn navigation__btn">
+            Start a campaign
+          </div>
+          <div class="avatar">
+            <img
+              src="/assets/img/avatar-2.jpg"
+              alt="Avatar"
+              class="avatar__img"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="layout__main ">
+        <div class="sidebar size-sidebar">
+          <ul class="sidebar__list">
+            <li class="sidebar__item" tabindex="0">
+              <img
+                src="/assets/img/icon_dashboard.svg"
+                alt="dashboard"
+                class="sidebar__icon"
+              />
+            </li>
+            <li class="sidebar__item" tabindex="0">
+              <img
+                src="/assets/img/icon_campaign.svg"
+                alt="campaign"
+                class="sidebar__icon"
+              />
+            </li>
+            <li class="sidebar__item" tabindex="0">
+              <img
+                src="/assets/img/icon_payment.svg"
+                alt="payment"
+                class="sidebar__icon"
+              />
+            </li>
+            <li class="sidebar__item" tabindex="0">
+              <img
+                src="/assets/img/icon_profile.svg"
+                alt="profile"
+                class="sidebar__icon"
+              />
+            </li>
+            <li class="sidebar__item" tabindex="0">
+              <img
+                src="/assets/img/icon_logout.svg"
+                alt="logout"
+                class="sidebar__icon"
+              />
+            </li>
+          </ul>
+
+          <div class="sidebar__theme">
+            <div class="sidebar__item sidebar__item--theme" tabindex="0">
+              <img src="/assets/img/icon_light.svg" alt="theme" />
+            </div>
+          </div>
+        </div>
+
+        <div class="payment flex-1">
+          <div class="payment__group">
+            <div class="payment__box">
+
+              <h1 class="payment__title">Connect Your Payment Processor</h1>
+              <p class="payment__desc">
+                To Start Processing credit card payments and donations, you will
+                need to select either Paypal or Payoneer
+              </p>
+            </div>
+
+          </div>
+          
+          <div class="payment__group-card">
+            <div class="payment-card">
+              <div class="payment-card__container">
+                <img src="/assets/img/logo_paypal.svg" alt="paypal" class="payment-card__img">
+                <p class="payment-card__desc">Get paid directly via Paypal.</p>
+              </div>
+              <button class=" btn-tirtary--active payment-card__btn">Connected</button>
+            </div>
+
+            <div class="payment-card">
+              <div class="payment-card__container">
+                <img src="/assets/img/logo_payoneer.svg" alt="paypal" class="payment-card__img">
+                <p class="payment-card__desc">Get paid worldwide your Work.</p>
+              </div>
+              <button class=" btn-tirtary payment-card__btn">Connect</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
