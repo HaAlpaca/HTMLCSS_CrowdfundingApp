@@ -1,0 +1,95 @@
+.campaign-card {
+  width: 288px;
+  height: 396px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 
+    0px 12px 20px rgba($color-box-shadow-3, 3%),
+    0px 6px 12px rgba($color-box-shadow-3, 2%),
+    0px 2px 4px rgba($color-box-shadow-3, 3%);
+    border-radius: 15px;
+
+  &__img {
+    width: 288px;
+    height: 158px;
+    border: none;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px 37px 15px 20px;
+  }
+
+  &__category {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+
+    &--icon {
+      width: 18px;
+      height: 18px;
+    }
+    &--name {
+      // display: inline-block;
+      margin-left: 10px;
+      font-size: 1.2rem;
+      font-weight: 500;
+      line-height: 13px;
+      color: $color-text-3;
+    }
+  }
+  &__properties {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 5px;
+    &--title {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: $color-text-1;
+    }
+    &--desc {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: $color-text-3;
+    }
+  }
+  &__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &--box {
+      display: flex;
+      gap: 3px;
+      flex-direction: column;
+      &__fund {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: $color-text-2;
+      }
+      &__desc {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: $color-text-4;
+      }
+    }
+  }
+  &__createdby {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    &--actor {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: $color-text-3;
+      &-name {
+        font-weight: 600;
+        color: $color-text-2;
+      }
+    }
+  }
+}
