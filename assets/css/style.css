@@ -532,6 +532,12 @@ body {
   box-shadow: 0px 12px 20px rgba(184, 184, 184, 0.03), 0px 6px 12px rgba(184, 184, 184, 0.02), 0px 2px 4px rgba(184, 184, 184, 0.03);
   border-radius: 15px;
 }
+@media only screen and (max-width: 37.5rem) {
+  .campaign-card {
+    width: 256px;
+    height: 380px;
+  }
+}
 .campaign-card__img {
   width: 288px;
   height: 158px;
@@ -539,11 +545,22 @@ body {
   border-radius: 15px;
   object-fit: cover;
 }
+@media only screen and (max-width: 37.5rem) {
+  .campaign-card__img {
+    width: 256px;
+  }
+}
 .campaign-card__container {
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin: 15px 37px 15px 20px;
+}
+@media only screen and (max-width: 37.5rem) {
+  .campaign-card__container {
+    gap: 10px;
+    margin: 15px 17px 0px 17px;
+  }
 }
 .campaign-card__category {
   display: flex;
@@ -572,6 +589,11 @@ body {
   font-weight: 600;
   color: #171725;
 }
+@media only screen and (max-width: 37.5rem) {
+  .campaign-card__properties--title {
+    font-size: 1.4rem;
+  }
+}
 .campaign-card__properties--desc {
   font-size: 1.2rem;
   font-weight: 400;
@@ -592,12 +614,23 @@ body {
   font-weight: 600;
   color: #4b5264;
 }
+@media only screen and (max-width: 37.5rem) {
+  .campaign-card__info--box__fund {
+    font-size: 1.2rem;
+  }
+}
 .campaign-card__info--box__desc {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: #b2b3bd;
 }
+@media only screen and (max-width: 37.5rem) {
+  .campaign-card__info--box__desc {
+    font-size: 1.2rem;
+  }
+}
 .campaign-card__createdby {
+  margin-top: 5px;
   display: flex;
   align-items: center;
   gap: 10px;
